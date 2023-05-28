@@ -25,7 +25,7 @@ def get_col_rows(excel_file) -> list:
     
     return table_cols, table_rows
 
-def extract_ridership(col_list) -> dict:
+def extract_ridership(col_list, row_list) -> dict:
     """ Extracts the ridership values from a list of list and puts it in a dictionary.
         This function already partially cleans the data by removing values that are not integers (i.e, str and None types)
 
@@ -44,7 +44,7 @@ def extract_ridership(col_list) -> dict:
         str_list = []
         
         for cell in col:
-            if isinstance(cell, int):
+            if isinstance(cell, int) or cell == "-":
                 value_list.append(cell)
             
             if isinstance(cell, str):
@@ -72,7 +72,7 @@ def extract_hours(row_list) -> list:
     hours_list = []
     
     for row in row_list:
-        if isinstance(row[5], int):
+        if isinstance(row[1], int):
             hours_list.append(row[0])
     
     return hours_list
@@ -97,7 +97,7 @@ def generate_date(row_list, excel_file) -> list:
         if row[1] == "Entry":
             day += 1
         
-        if isinstance(row[5], int):
+        if isinstance(row[1], int):
             dates_list.append(f"{year_month}-{day}")
         
     return dates_list
@@ -147,7 +147,7 @@ def compile_values(file_list):
             
             hours = extract_hours(table_rows)
             dates = generate_date(table_rows, excel_file)
-            station_riders_dict = extract_ridership(table_cols)
+            station_riders_dict = extract_ridership(table_cols, table_rows)
             
             for hour in hours:
                 hours_list.append(hour)
@@ -167,7 +167,9 @@ def compile_values(file_list):
         except ValueError:
             pass
         
-        
+    print(f"Extracted {len(hours_list)} time elements and {len(dates_list)} date elements.")
+    for station, value in station_dict.items():
+        print(f"{station}: {len(value)}")
         
     return hours_list, dates_list, station_dict
 

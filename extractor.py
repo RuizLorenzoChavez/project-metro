@@ -209,6 +209,7 @@ def main():
     json_metro_data = merge_to_json(time, dates, stations)
     
     print(f"Summary: time ({len(time)}), dates ({len(dates)}), stations ({[(len(dates) - len(values)) for station, values in stations.items()]})")
-
+    
+#  main directive running the program
 if __name__ == "__main__":
     main()

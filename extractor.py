@@ -1,5 +1,6 @@
 import os
 import json
+import numpy as np
 from openpyxl import load_workbook
 from datetime import datetime
 from tqdm import tqdm
@@ -13,7 +14,7 @@ def get_col_rows(excel_file) -> list:
     Returns:
         list: A list of list containing the values in column-wise and row-wise format.
     """
-    table = load_workbook(filename=f"data/{excel_file}")["Daily"]
+    table = load_workbook(filename=f"raw-data/{excel_file}")["Daily"]
 
     table_total_rows = table.max_row
 
@@ -25,7 +26,7 @@ def get_col_rows(excel_file) -> list:
     
     return table_cols, table_rows
 
-def extract_ridership(col_list, row_list) -> dict:
+def extract_ridership(col_list) -> dict:
     """ Extracts the ridership values from a list of list and puts it in a dictionary.
         This function already partially cleans the data by removing values that are not integers (i.e, str and None types)
 
@@ -38,13 +39,19 @@ def extract_ridership(col_list, row_list) -> dict:
     
     station_riders_dict = {}
     
-    for col in col_list:
+    for idx_col, col in enumerate(col_list):
         
         value_list = []
         str_list = []
         
-        for cell in col:
-            if isinstance(cell, int) or cell == "-":
+        for idx_cell, cell in enumerate(col):
+            reference_cell = col_list[idx_col-1][idx_cell]
+            
+            if cell is None:           
+                 if isinstance(reference_cell, int):
+                    value_list.append(np.nan)
+                
+            if isinstance(cell, int):
                 value_list.append(cell)
             
             if isinstance(cell, str):
@@ -72,7 +79,7 @@ def extract_hours(row_list) -> list:
     hours_list = []
     
     for row in row_list:
-        if isinstance(row[1], int):
+        if isinstance(row[5], int):
             hours_list.append(row[0])
     
     return hours_list
@@ -97,7 +104,7 @@ def generate_date(row_list, excel_file) -> list:
         if row[1] == "Entry":
             day += 1
         
-        if isinstance(row[1], int):
+        if isinstance(row[5], int):
             dates_list.append(f"{year_month}-{day}")
         
     return dates_list
@@ -118,13 +125,13 @@ def troubleshoot(hours_list, dates_list, station_riders_dict,excel_file):
     date_written = datetime.strftime(datetime.now(), "%d%B%Y")
     
     for station, values in station_riders_dict.items():
-        station_count[f"{station}"] = len(values)
+        station_count[f"{station}"] = hours_count - len(values)
     
     with open(f"log/{date_written}-log.txt", "a") as log:
         log.write(f"{excel_file} Summary\n")
         log.write(f"Hour element count: {hours_count}\n")   
         log.write(f"Date element count: {dates_count}\n") 
-        log.write(f"Station element count: {station_count}\n\n")
+        log.write(f"Station element error count: {station_count}\n\n")
         
 def compile_values(file_list):
     """Compiles the values from all the tables in the collection of spreadsheets.
@@ -141,13 +148,12 @@ def compile_values(file_list):
     station_dict = {}
 
     for excel_file in tqdm(file_list):
-        
         try:
             table_cols, table_rows = get_col_rows(excel_file)
             
             hours = extract_hours(table_rows)
             dates = generate_date(table_rows, excel_file)
-            station_riders_dict = extract_ridership(table_cols, table_rows)
+            station_riders_dict = extract_ridership(table_cols)
             
             for hour in hours:
                 hours_list.append(hour)
@@ -165,11 +171,10 @@ def compile_values(file_list):
             troubleshoot(hours, dates, station_riders_dict, excel_file)
             
         except ValueError:
+            print(f"{excel_file} skipped.")
             pass
         
-    print(f"Extracted {len(hours_list)} time elements and {len(dates_list)} date elements.")
-    for station, value in station_dict.items():
-        print(f"{station}: {len(value)}")
+        
         
     return hours_list, dates_list, station_dict
 
@@ -193,15 +198,17 @@ def merge_to_json(hours_list, dates_list, station_dict):
     
     metro_object = json.dumps(metro_dict, indent=4)
     
-    with open("cleaned/mrt_data.json", "w") as mrt_data:
+    with open("cleaned-data/mrt_data.json", "w") as mrt_data:
         mrt_data.write(metro_object)
         
 def main():
-    excel_file_list = os.listdir("data")
+    excel_file_list = os.listdir("raw-data")
     
     hours, dates, stations = compile_values(excel_file_list)
     
-    json_metro_data = merge_to_json(hours, dates,stations)
+    json_metro_data = merge_to_json(hours, dates, stations)
+    
+    print(f"Summary: hours ({len(hours)}), dates ({len(dates)}), stations ({[(len(dates) - len(values)) for station, values in stations.items()]})")
 
 if __name__ == "__main__":
     main()

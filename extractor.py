@@ -65,7 +65,7 @@ def extract_ridership(col_list) -> dict:
     
     return station_riders_dict
 
-def extract_hours(row_list) -> list:
+def extract_time(row_list) -> list:
     """ Extracts the hour values from a list of list and puts it in a list.
         This function only extracts the hour values that have ridership values associated with it.
 
@@ -76,13 +76,13 @@ def extract_hours(row_list) -> list:
         list: This a list containing the hours that have values associated with it (i.e., non-empty entries)
     """
     
-    hours_list = []
+    time_list = []
     
     for row in row_list:
         if isinstance(row[5], int):
-            hours_list.append(row[0])
+            time_list.append(row[0])
     
-    return hours_list
+    return time_list
 
 def generate_date(row_list, excel_file) -> list:
     """Generates date associated with the entries from the table.
@@ -109,17 +109,17 @@ def generate_date(row_list, excel_file) -> list:
         
     return dates_list
 
-def troubleshoot(hours_list, dates_list, station_riders_dict,excel_file):
+def troubleshoot(time_list, dates_list, station_riders_dict,excel_file):
     """Provides a summary of the dataset to spot discrepancies.
 
     Args:
-        hours_list (list): This is a list containing all the hour elements extracted from the dataset
+        time_list (list): This is a list containing all the hour elements extracted from the dataset
         dates_list (list): This ia list containing all the date elements generated from the dataset 
         station_riders_dict (_type_): This is a dictionary of a list containing the ridership values of each station.
         excel_file (_type_): This is the file name of the excel workbook
     """
     
-    hours_count = len(hours_list)
+    hours_count = len(time_list)
     dates_count = len(dates_list)
     station_count = {}
     date_written = datetime.strftime(datetime.now(), "%d%B%Y")
@@ -129,7 +129,7 @@ def troubleshoot(hours_list, dates_list, station_riders_dict,excel_file):
     
     with open(f"log/{date_written}-log.txt", "a") as log:
         log.write(f"{excel_file} Summary\n")
-        log.write(f"Hour element count: {hours_count}\n")   
+        log.write(f"Time element count: {hours_count}\n")   
         log.write(f"Date element count: {dates_count}\n") 
         log.write(f"Station element error count: {station_count}\n\n")
         
@@ -143,7 +143,7 @@ def compile_values(file_list):
         list and dict: Returns the extracted values from all the columns in the table.
     """
     
-    hours_list = []
+    time_list = []
     dates_list = []
     station_dict = {}
 
@@ -151,12 +151,12 @@ def compile_values(file_list):
         try:
             table_cols, table_rows = get_col_rows(excel_file)
             
-            hours = extract_hours(table_rows)
+            times = extract_time(table_rows)
             dates = generate_date(table_rows, excel_file)
             station_riders_dict = extract_ridership(table_cols)
             
-            for hour in hours:
-                hours_list.append(hour)
+            for time in times:
+                time_list.append(time)
             
             for date in dates:
                 dates_list.append(date)
@@ -168,7 +168,7 @@ def compile_values(file_list):
                 for station, values in station_riders_dict.items():
                     station_dict[f"{station}"] = values
             
-            troubleshoot(hours, dates, station_riders_dict, excel_file)
+            troubleshoot(times, dates, station_riders_dict, excel_file)
             
         except ValueError:
             print(f"{excel_file} skipped.")
@@ -176,13 +176,13 @@ def compile_values(file_list):
         
         
         
-    return hours_list, dates_list, station_dict
+    return time_list, dates_list, station_dict
 
-def merge_to_json(hours_list, dates_list, station_dict):
+def merge_to_json(time_list, dates_list, station_dict):
     """This merges all the column and its values into a dictionary and saves it as a JSON file.
 
     Args:
-        hours_list (list): Contains all the hour elements
+        time_list (list): Contains all the time elements
         dates_list (list): Contains all the date elements
         station_dict (dict): Contains all the rider count for each station
 
@@ -191,7 +191,7 @@ def merge_to_json(hours_list, dates_list, station_dict):
     metro_dict = {}
     
     metro_dict["date"] = dates_list
-    metro_dict["hour"] = hours_list
+    metro_dict["time"] = time_list
     
     for station, values in station_dict.items():
         metro_dict[f"{station}"] = values
@@ -204,11 +204,11 @@ def merge_to_json(hours_list, dates_list, station_dict):
 def main():
     excel_file_list = os.listdir("raw-data")
     
-    hours, dates, stations = compile_values(excel_file_list)
+    time, dates, stations = compile_values(excel_file_list)
     
-    json_metro_data = merge_to_json(hours, dates, stations)
+    json_metro_data = merge_to_json(time, dates, stations)
     
-    print(f"Summary: hours ({len(hours)}), dates ({len(dates)}), stations ({[(len(dates) - len(values)) for station, values in stations.items()]})")
+    print(f"Summary: time ({len(time)}), dates ({len(dates)}), stations ({[(len(dates) - len(values)) for station, values in stations.items()]})")
 
 if __name__ == "__main__":
     main()

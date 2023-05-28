@@ -1,0 +1,225 @@
+2019-1.xlsx Summary
+Time element count: 630
+Date element count: 630
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-10.xlsx Summary
+Time element count: 627
+Date element count: 627
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-11.xlsx Summary
+Time element count: 607
+Date element count: 607
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-12.xlsx Summary
+Time element count: 637
+Date element count: 637
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-2.xlsx Summary
+Time element count: 575
+Date element count: 575
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-3.xlsx Summary
+Time element count: 643
+Date element count: 643
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-4.xlsx Summary
+Time element count: 466
+Date element count: 466
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-5.xlsx Summary
+Time element count: 624
+Date element count: 624
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-6.xlsx Summary
+Time element count: 619
+Date element count: 619
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-7.xlsx Summary
+Time element count: 630
+Date element count: 630
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-8.xlsx Summary
+Time element count: 643
+Date element count: 643
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2019-9.xlsx Summary
+Time element count: 626
+Date element count: 626
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2020-1.xlsx Summary
+Time element count: 637
+Date element count: 637
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2020-10.xlsx Summary
+Time element count: 621
+Date element count: 621
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2020-12.xlsx Summary
+Time element count: 630
+Date element count: 630
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2020-2.xlsx Summary
+Time element count: 593
+Date element count: 593
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2020-3.xlsx Summary
+Time element count: 323
+Date element count: 323
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2020-6.xlsx Summary
+Time element count: 608
+Date element count: 608
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2020-7.xlsx Summary
+Time element count: 465
+Date element count: 465
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2020-8.xlsx Summary
+Time element count: 328
+Date element count: 328
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2020-9.xlsx Summary
+Time element count: 614
+Date element count: 614
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-1.xlsx Summary
+Time element count: 628
+Date element count: 628
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-10.xlsx Summary
+Time element count: 606
+Date element count: 606
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-11.xlsx Summary
+Time element count: 597
+Date element count: 597
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-12.xlsx Summary
+Time element count: 616
+Date element count: 616
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-2.xlsx Summary
+Time element count: 580
+Date element count: 580
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-3.xlsx Summary
+Time element count: 588
+Date element count: 588
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-4.xlsx Summary
+Time element count: 515
+Date element count: 515
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-5.xlsx Summary
+Time element count: 638
+Date element count: 638
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-6.xlsx Summary
+Time element count: 605
+Date element count: 605
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-7.xlsx Summary
+Time element count: 630
+Date element count: 630
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-8.xlsx Summary
+Time element count: 618
+Date element count: 618
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2021-9.xlsx Summary
+Time element count: 613
+Date element count: 613
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-1.xlsx Summary
+Time element count: 603
+Date element count: 603
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-10.xlsx Summary
+Time element count: 604
+Date element count: 604
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-11.xlsx Summary
+Time element count: 607
+Date element count: 607
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-12.xlsx Summary
+Time element count: 603
+Date element count: 603
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-2.xlsx Summary
+Time element count: 544
+Date element count: 544
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-3.xlsx Summary
+Time element count: 620
+Date element count: 620
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-4.xlsx Summary
+Time element count: 500
+Date element count: 500
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-5.xlsx Summary
+Time element count: 636
+Date element count: 636
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-6.xlsx Summary
+Time element count: 611
+Date element count: 611
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-7.xlsx Summary
+Time element count: 611
+Date element count: 611
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-8.xlsx Summary
+Time element count: 631
+Date element count: 631
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
+2022-9.xlsx Summary
+Time element count: 611
+Date element count: 611
+Station element error count: {'North Ave': 0, 'Quezon Ave': 0, 'GMA Kamuning': 0, 'Cubao': 0, 'Santolan': 0, 'Ortigas': 0, 'Shaw Blvd': 0, 'Boni Ave': 0, 'Guadalupe': 0, 'Buendia': 0, 'Ayala Ave': 0, 'Magallanes': 0, 'Taft': 0}
+
